@@ -22,6 +22,11 @@
 .profile {
   width: 100%;
   margin-bottom: 1rem;
+  transition: scale 0.2s ease;
+}
+
+.profile:hover {
+  scale: 1.1;
 }
 
 .header p{
