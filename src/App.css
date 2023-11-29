@@ -38,6 +38,8 @@
 .btn {
   display: flex;
   align-items: center;
+  padding-block: 0.4rem;
+  font-size: 14px;
   justify-content: center;
   border: none;
   outline: none;
@@ -89,4 +91,9 @@
 .footer a {
   border: none;
   font-size: 30px;
+  transition: all 0.2s ease;
+}
+
+.footer a:hover {
+  color: #fff;
 }
