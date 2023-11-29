@@ -1,0 +1,92 @@
+.App {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card styles */
+.card {
+  width: 275px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #222;
+  margin-block: 2rem;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+}
+
+.profile {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.header p{
+  color: rgb(239, 239, 139);
+  font-size: 14px;
+}
+
+.email {
+  color: dodgerblue;
+  font-size: 12px;
+}
+
+/* Button Styles */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  gap: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  background: #ddd;
+  color: #222;
+  transition: all 0.2s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #aaa;
+}
+
+/* Introduction styles */
+
+.intro {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.intro div {
+  margin-block: 1rem;
+}
+
+.intro__about h3,
+.intro__interest h3 {
+  font-size: 14px;
+}
+
+.intro__about p,
+.intro__interest p {
+  font-size: 12px;
+}
+
+/* Footer styles */
+.footer {
+  padding-top: 0.7rem;
+  width: 100%;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer a {
+  border: none;
+  font-size: 30px;
+}
